@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-neutral-900 transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-neutral-950 text-neutral-100;
+}
+
+/* Nice gradients & utility classes */
+.grad-text {
+  @apply bg-gradient-to-r from-brand via-emerald-400 to-teal-300 bg-clip-text text-transparent;
+}
+.section {
+  @apply max-w-6xl mx-auto px-4 md:px-6 lg:px-8 py-20;
+}
+.card {
+  @apply rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white/50 dark:bg-white/[0.03] backdrop-blur p-6;
+}
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-medium border border-transparent hover:opacity-90 transition;
+}
+.btn-primary {
+  @apply bg-brand text-white;
+}
+.btn-outline {
+  @apply border-neutral-300 dark:border-neutral-700;
+}
