@@ -32,7 +32,7 @@ export default function Hero() {
             className="relative h-64 md:h-80 rounded-2xl overflow-hidden border border-neutral-200 dark:border-neutral-800"
         >
           <img
-              src="/my_photo.jpg"     // 👈 your image filename (see next step)
+              src="/my_photo.jpeg"     // 👈 your image filename (see next step)
               alt="Aayush Bhalerao"
               className="object-cover w-full h-full object-[center_23%]"
           />
