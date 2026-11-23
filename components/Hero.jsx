@@ -17,7 +17,7 @@ export default function Hero() {
             Aayush Bhalerao
           </h1>
           <p className="text-lg text-neutral-600 dark:text-neutral-300">
-            Computer Science (MEng) student at the University of Bristol.
+            CS student at the University of Bristol, with a year abroad at Purdue University.
             </p>
           <div className="flex gap-3">
             <a href="#projects" className="btn btn-primary">View Projects</a>
