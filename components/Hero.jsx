@@ -17,8 +17,26 @@ export default function Hero() {
             Aayush Bhalerao
           </h1>
           <p className="text-lg text-neutral-600 dark:text-neutral-300">
-            CS student at the University of Bristol, with a year abroad at Purdue University.
-            </p>
+            CS student at the{" "}
+            <a
+              href="https://www.bristol.ac.uk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-neutral-900 dark:hover:text-white"
+            >
+              University of Bristol
+            </a>
+            , with a year abroad at{" "}
+            <a
+              href="https://www.purdue.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-neutral-900 dark:hover:text-white"
+            >
+              Purdue University
+            </a>
+            .
+          </p>
           <div className="flex gap-3">
             <a href="#projects" className="btn btn-primary">View Projects</a>
             <a href="#contact" className="btn btn-outline">Contact Me</a>
